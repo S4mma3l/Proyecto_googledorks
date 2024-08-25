@@ -7,7 +7,7 @@ import webbrowser
 from ttkthemes import ThemedTk  # Cambiar importación
 
 def get_google_results(query, dorks, location=None, advanced_params=None):
-    api_key = 'cf74a85dfa19aa54cf23ba0bdc8ea42bb1213d357bbab793da6fac372514b522'
+    api_key = 'serpapi_key'
     query = query.strip()
     if not query:
         print("La consulta no puede estar vacía.")
